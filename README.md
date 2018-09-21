@@ -1,2 +1,2 @@
 # sfg-pet-clinic
-SFG Pet Clinic
+SFG guru.springframework.guru.springframework.sfgpetclinic.model.Pet Clinic
