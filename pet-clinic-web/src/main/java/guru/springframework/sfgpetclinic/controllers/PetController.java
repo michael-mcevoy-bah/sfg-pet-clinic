@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by Michael McEvoy
  * 09/21/2018
  */
-@RequestMapping("/owners")
+@RequestMapping("/pets")
 @Controller
-public class OwnerController {
+public class PetController {
 
     @RequestMapping({"", "/", "/index", "/index.html"})
-    public String getOwners() {
-        return "owners/index";
+    public String listOfPets() {
+        return "pets/index";
     }
 }
