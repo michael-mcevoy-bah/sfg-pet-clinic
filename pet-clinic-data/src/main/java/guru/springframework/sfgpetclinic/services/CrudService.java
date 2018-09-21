@@ -12,7 +12,7 @@ public interface CrudService<T, ID> {
 
     T findById(ID id);
 
-    T save(T t);
+    T save(ID id, T t);
 
     void delete(T t);
 
