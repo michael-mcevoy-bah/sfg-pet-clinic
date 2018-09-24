@@ -11,7 +11,7 @@ import java.util.Set;
  * Created by Michael McEvoy
  * 09/21/2018
  */
-public abstract class AbstractMapService<T, ID> implements CrudService<T, ID> {
+public abstract class AbstractServiceMap<T, ID> implements CrudService<T, ID> {
 
     protected Map<ID, T> map = new HashMap<>();
 
